@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  main:
+    build:
+      context: .
+    container_name: $NAME
+    restart: always
